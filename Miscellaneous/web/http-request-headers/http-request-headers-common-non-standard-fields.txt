@@ -20,3 +20,5 @@ X-XSRF-TOKEN
 Client-IP
 True-Client-IP
 Cluster-Client-IP
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
